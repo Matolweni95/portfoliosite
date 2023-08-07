@@ -13,10 +13,26 @@
         height: 100vh;
     }
 
+    .shown {
+        display: none;
+    }
+
+    .normal {
+        display: block;
+    }
+
     .hero-container {
         flex-direction: column-reverse;
         padding: 15px;
         justify-content: center;
+    }
+
+    .hero-cube {
+        display: none;
+    }
+
+    .nav-item button{
+        display: none;
     }
 
     object {
@@ -39,6 +55,8 @@
 
     .hero p {
         width: unset;
+        position: relative;
+        top: 0px;
     }
 
     .hero-img {
@@ -53,21 +71,24 @@
 
     .top-code-block {
         right: unset;
-        left: -550px;
+        left: -480px;
+        width: 650px;
+        filter: blur(8px);
         position: absolute;
         top: -360px;
     }
 
     .bottom-code-block {
         transform: unset;
-        top: 365px;
-        left: 70px;
+        top: 220px;
+        filter: blur(9px);
+        left: 100px;
     }
 
     .about-container {
         flex-direction: column;
         position: relative;
-        top: 210px;
+        top: 175px;
     }
 
     .about h1 {
@@ -93,6 +114,7 @@
 
     .skills-container {
         align-items: unset;
+        top: 80px;
     }
 
     .skills-content {
@@ -128,12 +150,14 @@
 
     .skills-code-block {
         top: -420px;
+        width: 200px;
+    
     }
 
     .project-container {
         position: relative;
-        top: 15vh;
         padding: 15px;
+        top: 50vh;
     }
 
     .project-img {
@@ -159,7 +183,8 @@
 
     .project-btm-code-block {
         transform: unset;
-        top: -110px;
+     
+        width: 500px;
         left: 180px;
         bottom: 0px !important;
     }

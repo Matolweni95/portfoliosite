@@ -12,7 +12,7 @@ a {
     width: 100%;
     height: auto;
     top: 0;
-    z-index: 999;
+    z-index: 99999;
 }
 
 .header-content {

@@ -12,10 +12,10 @@ const Navbar = () => {
     document.querySelector("body").setAttribute('data-theme', 'light')
   }
 
-  SetDarkMode();
+  SetLightMode();
 
   const toggleTheme = (e) => {
-    if (e.target.checked) SetLightMode();
+    if (e.target.checked) SetDarkMode();
     else SetLightMode()
   }
   const selectedTheme = localStorage.getItem("selectedTheme");

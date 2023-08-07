@@ -18,6 +18,7 @@ function App() {
   
   return (
     <div className="App">
+      <div className='shown'>
       <Navbar />
       <Splide
         options={{
@@ -57,11 +58,16 @@ function App() {
         {/* <SplideSlide>
           <Contact />
         </SplideSlide> */}
-        <SplideSlide>
-          <Test/>
-        </SplideSlide>
       </Splide>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      </div>
+      <div className='normal'>
+        <Navbar />
+        <Hero />
+        <About />
+        <Skills />
+        <Projects/>
+      </div>
     </div>
     
   );

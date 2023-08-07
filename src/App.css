@@ -19,7 +19,12 @@
 
 body {
     background-color: var(--body_background);
-}   
+}  
+
+
+.normal {
+    display: none;
+}
 
 
 .slide-down {
