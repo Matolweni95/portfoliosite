@@ -1,0 +1,287 @@
+@media (max-width: 480px) {
+    /* CSS rules for small screens */
+
+    header {
+        background-color: var(--body_background);
+    }
+
+    .header-content {
+        padding: 15px;
+    }
+
+    .hero {
+        height: 100vh;
+    }
+
+    .hero-container {
+        flex-direction: column-reverse;
+        padding: 15px;
+        justify-content: center;
+    }
+
+    object {
+        position: relative;
+        top: 197px;
+        width: 300px;
+    }
+    
+    .hero-text { 
+        top: unset;
+        width: unset;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+        width: 200px;
+        line-height: 40px;
+    }
+
+    .hero p {
+        width: unset;
+    }
+
+    .hero-img {
+        height: 600px;
+        position: relative;
+        left: 15px;
+    }
+
+    .about {
+        height: 100vh;
+    }
+
+    .top-code-block {
+        right: unset;
+        left: -550px;
+        position: absolute;
+        top: -360px;
+    }
+
+    .bottom-code-block {
+        transform: unset;
+        top: 365px;
+        left: 70px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        position: relative;
+        top: 210px;
+    }
+
+    .about h1 {
+        font-size: 41px;
+        width: 350px;
+    }
+
+    .about-content {
+        padding-top: 40px;
+    }
+    
+    .about p {
+        width: 350px ;
+    }
+
+    .dark-cube {
+        display: none;
+    }
+
+    .skills {
+        height: 100vh;
+    }
+
+    .skills-container {
+        align-items: unset;
+    }
+
+    .skills-content {
+        width: unset;
+        padding: 15px;
+    }
+
+    .skills h1 {
+        font-size: 32px;
+    }
+
+    .skills p {
+        width: auto;
+        text-align: unset;
+    }
+
+    .icons {
+        width: auto;
+        height: auto;
+    }
+
+    .icons  p {
+        text-align: center;
+    }
+
+    .skills svg {
+        height: 50px;
+    }
+
+    .slide-container {
+        flex-direction: column;
+    }
+
+    .skills-code-block {
+        top: -420px;
+    }
+
+    .project-container {
+        position: relative;
+        top: 15vh;
+        padding: 15px;
+    }
+
+    .project-img {
+        height: 255px;
+        width: auto;
+    }
+
+    .projects h1 {
+        font-size: 40px;
+    }
+
+    .slide1 > h1 {
+        text-align: center;
+    }
+
+    .projects p {
+        width: unset;
+    }
+
+    .text {
+        width: auto;
+    }
+
+    .project-btm-code-block {
+        transform: unset;
+        top: -110px;
+        left: 180px;
+        bottom: 0px !important;
+    }
+
+    .project-btm-svg-container {
+        bottom: unset;
+        
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* CSS rules for medium-sized screens */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* CSS rules for large screens */
+
+    .hero-container {
+        top: 15vh;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+        line-height: 35px;
+    }
+
+    .hero-img {
+        display: flex;
+        position: relative;
+        top: 7vh;
+    }
+
+    .hero p {
+        width:  unset;
+    }
+
+    .hero-text {
+        padding: 15px;
+    }
+
+    .hero-cube {
+        bottom: unset;
+        left: 150px;
+        top: 16vh;
+    }
+
+    object {
+        width: 400px;
+    }
+
+    .about h1 {
+        font-size: 45px;
+    }
+
+    .skills-container {
+        top: 14vh;
+    }
+
+    .icons {
+        width: 700px;
+    }
+
+    .icons svg {
+        width: 50px;
+    }
+
+    .project-container {
+        top: 30vh;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) { 
+
+    object {
+        width: 420px;
+        position: relative;
+        bottom: 36vh;
+    }
+
+    .hero h1 {
+        font-size: 39px;
+        line-height: 35px;
+    }
+
+    .hero p {
+        width: 415px;
+    }
+
+    .hero-text {
+        width: 420px;
+        gap: 25px;
+        bottom: 103px;
+    }
+
+    .hero-cube {
+        bottom:70vh;
+        left: 190px;
+    }
+
+    .about h1 {
+        font-size: 45px;
+    }
+
+    .skills h3 {
+        font-size: 18px;
+    }
+
+    .skills h1 {
+        font-size: 40px;
+    }
+    .sub-heading {
+        width: 300px;
+    }
+
+    .icons {
+        position: relative;
+        bottom: 50px;
+        width: 690px;
+    }
+
+    .icons svg {
+        width: 50px;
+    }
+}
+  

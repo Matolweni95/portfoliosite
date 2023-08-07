@@ -1,0 +1,76 @@
+.skills {
+    position: relative;
+    /* top: 50vh; */
+    height: 100vh;
+}
+
+.skills h3 {
+   
+    color: var(--text);
+    font-size: 15px;
+    text-align: center;
+}
+
+.skills h1 {
+    font-size: 60px;
+    text-align: center;
+    color: var(--text);
+}
+
+.skills p {
+    text-align: center;
+    color: var(--text);
+}
+
+.skills-container {
+    position: relative;
+    display: flex;
+    top: 4vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-content {
+    width: 700px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding-bottom: 70px;
+   
+}
+
+.skills svg {
+    width: 70px;
+    fill: var(--svg);
+    height: 70px;
+    margin: 0pc 30px 30px 30px;
+}
+
+.icons {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icons p {
+    position: relative;
+    top: -20px;
+}
+
+.skills-svg-container{
+    position: relative;
+    top: 117px;
+}
+
+.skills-code-block {
+    transform: scaleX(-1) ;
+    filter: blur(5px);
+    width: 700px;
+    position: relative;
+    right: 400px;
+    top: -460px;
+    z-index: -1;
+    
+}

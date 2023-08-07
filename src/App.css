@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
+:root {
+    --body_background: #f0f8ff;
+    --light: white;
+    --links: #141416;
+    --text: #141416;
+    --btn_color: #141416;
+    --see_more:#9c27b0;
+    --svg: #141416;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+[data-theme ="dark"] {
+    --body_background:  #141416;
+    --links: #f0f8ff;
+    --text: white;
+    --btn_color: #f0f8ff;
+    --svg : #f0f8ff;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    background-color: var(--body_background);
+}   
+
+
+.slide-down {
+    animation: slide-down 0.5s ease-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+@keyframes slide-down {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+  
+
+@media only screen and (min-width: 1440px) {
+  
+
+    .top-code-block {
+        position: relative;
+        bottom: 570px !important;
+        left: -480px;
+    }
+
+    object {
+        width: 650px;
+    }
+
+    .hero-container {
+        position: relative;
+        top: 50px;
+    }
+
+    .hero-cube {
+        position: relative;
+        bottom: 150px !important;
+        left: 650px !important;
+    }
+
+    .about {
+        position: relative;
+        height: 100vh; 
+    }
+
+    .about svg {
+        height: 1000px;
+    }
+
+    .about-main {
+       padding: 0px 150px;
+    }
+
+    .about-container {
+        position: relative;
+        top: 50vh;
+        width: 1400px;
+        gap: 42px;
+        justify-content: center;
+    }
+
+    .bottom-svg-container {
+        position: relative;
+        top: 2px;
+        overflow: hidden;
+    }
+      
+    .bottom-code-block {
+        transform: translate(1480px) !important;
+    }
+
+    .skills {
+        position: relative;
+    }
+
+    .skills-container {
+        position: relative;
+        top: 20vh !important;
+    }
+
+    .skills-svg-container{
+        position: relative;
+        top: 980px;
+    }
+
+    .skills-code-block {
+        top: -500px !important;
+        width: 800px !important;
+        right: 450px !important;
+    }
+    
+    .project-container {
+        position: relative;
+        top: 40vh !important;
+    }
+    
+    .project-code-container {
+        bottom: 350px !important;
+    }
+
+    .project-code-block {
+        transform: translateX(1500px) !important;
+        position: relative;
+        bottom: 1500px;
+    }
+
+    .project-btm-code-block {
+        position: relative;
+        top: 310px;
+        filter: blur(5px);
+        transform: translateX(1590px) !important;
+    }
+
+    .project-btm-code-block {
+        width: 750px;
+    }
 }

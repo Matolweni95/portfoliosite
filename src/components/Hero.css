@@ -1,0 +1,58 @@
+.hero-container {
+    padding: 10px;
+}
+
+.hero {
+    height: 100vh;
+}
+
+.hero-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    bottom: 100px;
+    justify-content: space-around;
+}
+
+object {
+    width: 565px;
+}
+
+.dots_decor {
+    height: 765px;
+    z-index: -1;
+    position: relative;
+    right: 310px;
+    transform: rotate(90deg);
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: var(--text);
+}
+
+.hero p {
+    font-size: 15px;
+    width: 450px;
+    color: var(--text);
+}
+
+.hero a {
+    color: #9c27b0;
+}
+
+.hero-text {
+    width: 550px;
+    display: flex;
+    position: relative;
+    top: 40px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hero-cube {
+    position: relative;
+    bottom: 365px;
+    width: 190px;
+    left: 429px;
+}
