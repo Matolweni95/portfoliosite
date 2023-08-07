@@ -41,8 +41,8 @@ const Projects = () => {
                                 Built with: React, Redux, Node, JavaScript, SASS, Custom Stripe Integration, 
                                 Firebase (NoSQL Database, Cloud Functions, Cloud Storage, Hosting).
                             </span>
-                            <span>View the code</span>
-                            <span>Visit the app</span>
+                            <span className='view'>View the code</span>
+                            <span className='view'>Visit the app</span>
                         </div>
                     </div>
                 </div>
@@ -59,8 +59,8 @@ const Projects = () => {
                                         Built with: React, Redux, Node, JavaScript, SASS, Custom Stripe Integration, 
                                         Firebase (NoSQL Database, Cloud Functions, Cloud Storage, Hosting).
                                     </span>
-                                    <span>View the code</span>
-                                    <span>Visit the app</span>
+                                    <span className='view'>View the code</span>
+                                    <span className='view'>Visit the app</span>
                                 </div>
                         </div>
                 </div>
@@ -77,8 +77,8 @@ const Projects = () => {
                                         Built with: React, Redux, Node, JavaScript, SASS, Custom Stripe Integration, 
                                         Firebase (NoSQL Database, Cloud Functions, Cloud Storage, Hosting).
                                     </span>
-                                    <span>View the code</span>
-                                    <span>Visit the app</span>
+                                    <span className='view'>View the code</span>
+                                    <span className='view'>Visit the app</span>
                                 </div>
                         </div>
                 </div>
